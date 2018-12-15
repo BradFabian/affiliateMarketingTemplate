@@ -1,12 +1,14 @@
 $bg: url("../images/NESBG.jpg");
 $herobg: url("../images/GamerImg.jpeg");
 $ff: "arial";
-body {
+body,
+html {
   background-image: $bg;
   font-family: $ff;
   width: 100%;
   margin: 0;
   padding: 0;
+  z-index: -1;
 }
 .navigation {
   background-color: whitesmoke;
@@ -59,7 +61,6 @@ nav {
 
   /* Set a specific height */
   height: 50%;
-  width: 100%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;

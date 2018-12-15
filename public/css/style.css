@@ -1,9 +1,11 @@
-body {
+body,
+html {
   background-image: url("../images/NESBG.jpg");
   font-family: "arial";
   width: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  z-index: -1; }
 
 .navigation {
   background-color: whitesmoke;
@@ -53,7 +55,6 @@ nav li:hover {
   background-image: url("../images/GamerImg.jpeg");
   /* Set a specific height */
   height: 50%;
-  width: 100%;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;

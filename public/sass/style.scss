@@ -1,9 +1,10 @@
-$bg: url("../images/NESBG.jpg");
-$herobg: url("../images/GamerImg.jpeg");
+$bg: rgb(72, 117, 114);
 $ff: "arial";
-body,
-html {
-  background-image: $bg;
+$ff2: "Ubuntu";
+body {
+  background: $bg;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: $ff;
   width: 100%;
   margin: 0;
@@ -11,36 +12,28 @@ html {
   z-index: -1;
 }
 .navigation {
-  background-color: whitesmoke;
+  background-color: rgb(74, 117, 72);
   display: flex;
   position: sticky;
   justify-content: center;
-  border-radius: 15px;
-  box-shadow: 15px 5px grey;
+  margin: 0;
   z-index: 2;
 }
-.navigation li {
-  background-color: red;
-  font-weight: bold;
-
-  text-align: center;
-  cursor: pointer;
-  border-radius: 15px;
-  box-shadow: 0 3px #999;
-}
-header {
-  ul li {
+.navigation {
+  li {
+    background-color: rgb(72, 75, 117);
+    font-weight: bold;
+    display: inline;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
     list-style-type: none;
     margin: 10px;
     padding: 10px;
   }
 }
 
-header {
-  li {
-    display: inline;
-  }
-}
 nav {
   a:link,
   a:visited {
@@ -52,29 +45,4 @@ nav {
     background-color: darkred;
     transform: translateY(4px);
   }
-}
-
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: $herobg;
-
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
 }

@@ -5,6 +5,7 @@ body {
   font-family: $ff;
 }
 .container {
+  background-color: bisque;
   display: flex;
 }
 header {
@@ -18,5 +19,15 @@ header {
 header {
   li {
     display: inline;
+  }
+}
+nav {
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    font-size: 20px;
+    color: black;
   }
 }

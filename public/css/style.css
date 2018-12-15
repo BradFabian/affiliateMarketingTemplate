@@ -6,7 +6,19 @@ body {
   background-color: bisque;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.container li {
+  background-color: red;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 3px #999;
+          box-shadow: 0 3px #999; }
 
 header ul li {
   list-style-type: none;
@@ -16,11 +28,14 @@ header ul li {
 header li {
   display: inline; }
 
-nav a:link {
+nav a:link,
+nav a:visited {
   text-decoration: none;
-  color: black; }
-nav a:hover {
-  font-size: 20px;
-  color: black; }
+  color: aliceblue; }
+nav a:hover,
+nav li:hover {
+  background-color: darkred;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px); }
 
 /*# sourceMappingURL=style.css.map */

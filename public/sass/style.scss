@@ -7,6 +7,15 @@ body {
 .container {
   background-color: bisque;
   display: flex;
+  justify-content: center;
+}
+.container li {
+  background-color: red;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
 }
 header {
   ul li {
@@ -22,12 +31,14 @@ header {
   }
 }
 nav {
-  a:link {
+  a:link,
+  a:visited {
     text-decoration: none;
-    color: black;
+    color: aliceblue;
   }
-  a:hover {
-    font-size: 20px;
-    color: black;
+  a:hover,
+  li:hover {
+    background-color: darkred;
+    transform: translateY(4px);
   }
 }

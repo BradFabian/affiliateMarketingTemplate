@@ -15,6 +15,7 @@ body {
   justify-content: center;
   border-radius: 15px;
   box-shadow: 15px 5px grey;
+  z-index: 2;
 }
 .navigation li {
   background-color: red;
@@ -58,6 +59,7 @@ nav {
 
   /* Set a specific height */
   height: 50%;
+  width: 100%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;

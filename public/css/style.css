@@ -17,7 +17,8 @@ body {
           justify-content: center;
   border-radius: 15px;
   -webkit-box-shadow: 15px 5px grey;
-          box-shadow: 15px 5px grey; }
+          box-shadow: 15px 5px grey;
+  z-index: 2; }
 
 .navigation li {
   background-color: red;
@@ -52,6 +53,7 @@ nav li:hover {
   background-image: url("../images/GamerImg.jpeg");
   /* Set a specific height */
   height: 50%;
+  width: 100%;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;

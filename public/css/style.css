@@ -44,4 +44,24 @@ nav li:hover {
   -webkit-transform: translateY(4px);
           transform: translateY(4px); }
 
+.flex-cotainer-4 div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.flex-container-3 div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.flex-container-2 div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.flex-container-1 div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
 /*# sourceMappingURL=style.css.map */

@@ -11,7 +11,7 @@ body {
   color: $fc;
   text-shadow: black 0.1em 0.1em 0.2em;
   width: 100%;
-  height: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
   z-index: -1;
@@ -19,8 +19,10 @@ body {
 .navigation {
   background-color: white;
   display: flex;
-  position: sticky;
+  position: fixed;
   justify-content: center;
+  width: 100%;
+  top: 0;
   margin: 0;
   z-index: 2;
 }
@@ -51,8 +53,11 @@ nav {
     transform: translateY(4px);
   }
 }
-
-.flex-container-1 {
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row-1 {
   display: flex;
   justify-content: center;
   background: gold;
@@ -66,8 +71,14 @@ nav {
   margin-left: auto;
 }
 
-.flex-container-2 {
-  display: block;
+.row-1 {
+  div {
+    flex-basis: 100%;
+  }
+}
+
+.row-2 {
+  display: flex;
   justify-content: center;
   align-content: center;
   background: gold;
@@ -81,9 +92,15 @@ nav {
   margin-left: auto;
 }
 
-.flex-container-3 {
+.row-2 {
+  div {
+    flex-basis: 100%;
+  }
+}
+
+.row-3 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: end;
   background: gold;
   border-radius: 15px;
@@ -96,7 +113,13 @@ nav {
   margin-left: auto;
 }
 
-.flex-container-4 {
+.row-3 {
+  div {
+    flex-basis: 33.3%;
+  }
+}
+
+.row-4 {
   display: flex;
   justify-content: center;
   background: gold;
@@ -109,14 +132,11 @@ nav {
   margin-right: auto;
   margin-left: auto;
 }
-
-.flex-container-3 {
+.row-4 {
   div {
-    height: 100px;
-    width: 100px;
+    flex-basis: 100%;
   }
 }
-
 footer {
   display: flex;
   justify-content: center;

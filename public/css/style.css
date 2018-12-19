@@ -2,9 +2,6 @@ body {
   background-image: url(../images/NESBG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Press Start 2P", cursive;
-  color: white;
-  text-shadow: black 0.1em 0.1em 0.2em;
   width: auto;
   height: auto;
   margin: 0;
@@ -165,5 +162,10 @@ nav li:hover {
 .row-3 div {
   -ms-flex-preferred-size: 33.3%;
       flex-basis: 33.3%; }
+
+body {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em; }
 
 /*# sourceMappingURL=style.css.map */

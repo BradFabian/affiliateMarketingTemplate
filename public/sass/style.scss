@@ -1,15 +1,10 @@
 $bg: url(../images/NESBG.jpg);
-$ff: "Press Start 2P", cursive;
-$ff2: "Ubuntu";
-$fc: white;
 
 body {
   background-image: $bg;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: $ff;
-  color: $fc;
-  text-shadow: black 0.1em 0.1em 0.2em;
+
   width: auto;
   height: auto;
   margin: 0;
@@ -94,3 +89,5 @@ footer {
 @import "nav";
 //import products//
 @import "products";
+//import fonts//
+@import "fonts";

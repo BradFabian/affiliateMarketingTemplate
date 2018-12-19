@@ -1,3 +1,30 @@
+// Sass variables for responsiveness
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+// Mixin for mobile
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+// Mixin for tablet
+@mixin tablet {
+  @media (min-width: #{$mobile-width + 1px}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+// Mixin for desktop
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+//SASS variables
 $bg: url(../images/NESBG.jpg);
 
 body {
@@ -5,14 +32,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
-  width: auto;
+  width: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   z-index: -1;
 }
 
-.wrapper {
+main {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -75,19 +102,12 @@ body {
     flex-basis: 100%;
   }
 }
-footer {
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: brown;
-}
 
 //import nav css //
 @import "nav";
-//import products//
+//import products css//
 @import "products";
-//import fonts//
+//import fonts css//
 @import "fonts";
+//import footer css//
+@import "footer";

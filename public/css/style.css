@@ -2,13 +2,13 @@ body {
   background-image: url(../images/NESBG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: auto;
+  width: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   z-index: -1; }
 
-.wrapper {
+main {
   max-width: 1200px;
   margin: 0 auto; }
 
@@ -76,19 +76,6 @@ body {
 .row-4 div {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%; }
-
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: brown; }
 
 .navigation {
   background-color: white;
@@ -167,5 +154,18 @@ body {
   font-family: "Press Start 2P", cursive;
   color: white;
   text-shadow: black 0.1em 0.1em 0.2em; }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: brown; }
 
 /*# sourceMappingURL=style.css.map */

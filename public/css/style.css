@@ -1,9 +1,7 @@
 body {
-  background-image: url(../images/NESBG.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #040458;
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: 0px;
   padding: 0px;
   z-index: -1; }
@@ -19,19 +17,17 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.row-1 article {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   background: gold;
   border-radius: 15px;
   opacity: 0.9;
-  height: 25%;
-  width: 50%;
-  margin-top: 20px;
-  margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto; }
-
-.row-1 div {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%; }
 
 .row-2 {
   display: -webkit-box;
@@ -42,19 +38,17 @@ main {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.row-2 article {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   background: gold;
   border-radius: 15px;
   opacity: 0.9;
-  height: 25%;
-  width: 50%;
-  margin-top: 20px;
-  margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto; }
-
-.row-2 div {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%; }
 
 .row-4 {
   display: -webkit-box;
@@ -63,19 +57,17 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.row-4 article {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   background: gold;
   border-radius: 15px;
   opacity: 0.9;
-  height: 25%;
-  width: 50%;
-  margin-top: 20px;
-  margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto; }
-
-.row-4 div {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%; }
 
 .navigation {
   background-color: white;
@@ -88,8 +80,9 @@ main {
           justify-content: center;
   width: 100%;
   top: 0;
+  padding: 0;
   margin: 0;
-  z-index: 2; }
+  z-index: 1; }
 
 .navigation li {
   background-color: #ee1c14;
@@ -134,21 +127,29 @@ nav li:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background: gold;
-  border-radius: 15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   opacity: 0.9;
-  height: 25%;
-  width: 50%;
   margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto; }
+  margin-bottom: 20px; }
 
-.row-3 div {
-  -ms-flex-preferred-size: 33.3%;
-      flex-basis: 33.3%; }
+.row-3 article {
+  -ms-flex-preferred-size: 27%;
+      flex-basis: 27%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  border: 1px #ccc solid;
+  background: gold;
+  border-radius: 15px; }
 
 body {
   font-family: "Press Start 2P", cursive;

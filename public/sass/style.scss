@@ -25,15 +25,12 @@ $desktop-width: 1024px;
 }
 
 //SASS variables
-$bg: url(../images/NESBG.jpg);
+$bg: rgb(4, 4, 88);
 
 body {
-  background-image: $bg;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  background: $bg;
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: 0px;
   padding: 0px;
   z-index: -1;
@@ -46,20 +43,19 @@ main {
 .row-1 {
   display: flex;
   justify-content: center;
-  background: gold;
-  border-radius: 15px;
-  opacity: 0.9;
-  height: 25%;
-  width: 50%;
+
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .row-1 {
-  div {
-    flex-basis: 100%;
+  article {
+    flex-basis: 50%;
+    background: gold;
+    border-radius: 15px;
+    opacity: 0.9;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -67,39 +63,37 @@ main {
   display: flex;
   justify-content: center;
   align-content: center;
-  background: gold;
-  border-radius: 15px;
-  opacity: 0.9;
-  height: 25%;
-  width: 50%;
+
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .row-2 {
-  div {
-    flex-basis: 100%;
+  article {
+    flex-basis: 50%;
+    background: gold;
+    border-radius: 15px;
+    opacity: 0.9;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 .row-4 {
   display: flex;
   justify-content: center;
-  background: gold;
-  border-radius: 15px;
-  opacity: 0.9;
-  height: 25%;
-  width: 50%;
+
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
 }
 .row-4 {
-  div {
-    flex-basis: 100%;
+  article {
+    flex-basis: 50%;
+    background: gold;
+    border-radius: 15px;
+    opacity: 0.9;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 

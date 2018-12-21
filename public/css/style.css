@@ -1,7 +1,8 @@
 body {
-  background: #040458;
-  width: 100%;
-  height: 100%;
+  background-image: url("../images/NESBG.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
   margin: 0px;
   padding: 0px;
   z-index: -1; }
@@ -25,6 +26,8 @@ main {
       flex-basis: 50%;
   background: gold;
   border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px grey;
+          box-shadow: 5px 5px 5px grey;
   opacity: 0.9;
   text-align: center;
   margin-right: auto;
@@ -47,6 +50,8 @@ main {
       flex-basis: 50%;
   background: gold;
   border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px grey;
+          box-shadow: 5px 5px 5px grey;
   opacity: 0.9;
   text-align: center;
   margin-right: auto;
@@ -67,6 +72,8 @@ main {
       flex-basis: 50%;
   background: gold;
   border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px grey;
+          box-shadow: 5px 5px 5px grey;
   opacity: 0.9;
   text-align: center;
   margin-right: auto;
@@ -151,6 +158,8 @@ nav li:hover {
       align-content: center;
   text-align: center;
   border: 1px #ccc solid;
+  -webkit-box-shadow: 5px 5px 5px grey;
+          box-shadow: 5px 5px 5px grey;
   background: gold;
   border-radius: 15px; }
 

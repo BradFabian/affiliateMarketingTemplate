@@ -9,7 +9,10 @@ body {
 
 main {
   max-width: 1200px;
-  margin: 0 auto; }
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 100px;
+  margin-bottom: 200px; }
 
 .row-1 {
   display: -webkit-box;
@@ -166,6 +169,18 @@ nav li:hover {
 img {
   width: 200px;
   height: 200px; }
+
+button {
+  background-color: #ee1c14;
+  font-weight: bold;
+  color: aliceblue;
+  display: inline;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 5px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px; }
 
 body {
   font-family: "Press Start 2P", cursive;

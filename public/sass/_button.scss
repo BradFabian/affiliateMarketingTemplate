@@ -1,8 +1,9 @@
-button {
+#Button {
   background-color: rgb(238, 28, 20);
   font-weight: bold;
   color: aliceblue;
-  display: inline;
+  display: block;
+  text-decoration: none;
   text-align: center;
   cursor: pointer;
   letter-spacing: 5px;

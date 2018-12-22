@@ -170,11 +170,12 @@ img {
   width: 200px;
   height: 200px; }
 
-button {
+#Button {
   background-color: #ee1c14;
   font-weight: bold;
   color: aliceblue;
-  display: inline;
+  display: block;
+  text-decoration: none;
   text-align: center;
   cursor: pointer;
   letter-spacing: 5px;
